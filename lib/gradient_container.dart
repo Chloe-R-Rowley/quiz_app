@@ -5,6 +5,8 @@ class GradientContainer extends StatelessWidget {
 
   @override
   Widget build(context) {
-    return const Text('Start Screen');
+    return const Center(
+      child: Text('Start Screen'),
+    );
   }
 }
