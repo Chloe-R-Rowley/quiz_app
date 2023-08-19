@@ -9,21 +9,25 @@ class GradientContainer extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Image.asset('assets/images/quiz-logo.png', width: 300),
+          Image.asset(
+            'assets/images/bio-quiz-logo.png',
+            width: 300,
+            height: 200,
+          ),
           const SizedBox(
             height: 80,
           ),
           const Text(
             'Learn Biology the fun way',
-            style: TextStyle(color: Colors.pink, fontSize: 25),
+            style: TextStyle(color: Colors.black, fontSize: 20),
           ),
           const SizedBox(
-            height: 30,
+            height: 50,
           ),
           OutlinedButton(
             onPressed: () {},
             style: OutlinedButton.styleFrom(
-              foregroundColor: Colors.pink,
+              foregroundColor: Colors.black,
             ),
             child: const Text('Start Quiz'),
           )
