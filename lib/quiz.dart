@@ -12,7 +12,14 @@ class Quiz extends StatefulWidget {
 }
 
 class _QuizState extends State<Quiz> {
-  Widget activeScreen = const GradientContainer();
+  Widget? activeScreen;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    activeScreen = GradientContainer(switchScreen);
+    super.initState();
+  }
 
   void switchScreen() {
     setState(() {
