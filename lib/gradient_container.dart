@@ -13,7 +13,16 @@ class GradientContainer extends StatelessWidget {
             'assets/images/bio-quiz-logo.png',
             width: 300,
             height: 200,
+            // color: const Color.fromARGB(104, 255, 255, 255),
           ),
+          // Opacity(
+          //   opacity: 0.75,
+          //   child: Image.asset(
+          //     'assets/images/bio-quiz-logo.png',
+          //     width: 300,
+          //     height: 200,
+          //   ),
+          // ),
           const SizedBox(
             height: 80,
           ),
@@ -24,12 +33,13 @@ class GradientContainer extends StatelessWidget {
           const SizedBox(
             height: 50,
           ),
-          OutlinedButton(
+          OutlinedButton.icon(
             onPressed: () {},
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.black,
             ),
-            child: const Text('Start Quiz'),
+            icon: const Icon(Icons.arrow_right_alt),
+            label: const Text('Start Quiz'),
           )
         ],
       ),
