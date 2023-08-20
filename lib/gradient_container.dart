@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.startQuiz, {super.key});
@@ -28,9 +29,10 @@ class GradientContainer extends StatelessWidget {
           const SizedBox(
             height: 80,
           ),
-          const Text(
+          Text(
             'Learn Biology the fun way',
-            style: TextStyle(color: Colors.black, fontSize: 20),
+            style: GoogleFonts.ubuntu(
+                color: const Color.fromARGB(255, 0, 70, 2), fontSize: 24),
           ),
           const SizedBox(
             height: 50,
