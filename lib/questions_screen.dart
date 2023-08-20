@@ -13,6 +13,27 @@ class _QuestionsScreen extends State<QuestionsScreen> {
   @override
   Widget build(context) {
     // TODO: implement build
-    return const Text('Questions Screen');
+    return SizedBox(
+      width: double.infinity,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Text('The question...'),
+          const SizedBox(height: 30),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text('Answer 1'),
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text('Answer 2'),
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text('Answer 3'),
+          ),
+        ],
+      ),
+    );
   }
 }
