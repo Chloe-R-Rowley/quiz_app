@@ -8,9 +8,7 @@ A notable feature of the Biology learning quiz app is its adept handling of data
 
 Here are the screenshots of the app:
 
-![alt text](quiz_app_start_screen.png)
-
-![alt text](quiz_app_questions_screen.png)
+![alt text](quiz_app_start_screen.png)   ![alt text](quiz_app_questions_screen.png)
 
 ![alt text](quiz_app_results_screen.png)
 
